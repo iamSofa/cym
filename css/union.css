@@ -1,0 +1,92 @@
+#block {
+  padding-top: 3%;
+  margin: 0 auto;
+  padding-bottom: 10%;
+  height: auto;
+  position: relative;
+  z-index: 3;
+}
+  #mainblock {
+  width: 70%;
+  margin-left: 15%;
+  background-position: top center;
+}
+  main #defaultCanvas0 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.text {
+  font-size: 5vw;
+  padding-left: 40%;
+  padding-top: 4%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.text1 {
+  font-size: 3vw;
+  text-align: center;
+  margin-top: 4%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.music1 {
+  font-size: 1.8vw;
+  text-align: left;
+  margin-top: 5%;
+  margin-left: 10%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.img2 {
+  margin-top: 3%;
+  margin-left: 7%;
+  width: 24%;
+  float: left;
+}
+#img3 {
+  padding-top: 3%;
+  margin-top: 5%;
+  margin-left: 20%;
+  width: 60%;
+  float: left;
+}
+#img4 {
+  margin-top: 20%;
+  margin-left: 13%;
+  width: 75%;
+  float: left;
+}
+.block1 {
+  background: rgba(255, 255, 255, 0.4);
+  margin-left: 43%;
+  margin-top: 3%;
+  width: 55%;
+  padding-bottom: 7%;
+}
+.block2 {
+  background: rgba(255, 255, 255, 0.4);
+  margin-left: 10%;
+  margin-top: 3%;
+  width: 83%;
+  padding-bottom: 35%;
+}
+.block3 {
+  background: rgba(255, 255, 255, 0.4);
+  margin-left: 10%;
+  margin-top: 3%;
+  width: 35%;
+  padding-bottom: 7%;
+  float: left;
+}
+.block4 {
+  background: rgba(255, 255, 255, 0.4);
+  margin-left: 58%;
+  margin-top: 3%;
+  width: 35%;
+}
+@media (max-width: 800px) {
+  #mainblock {
+    flex-direction: column-reverse;
+    width: 100%;
+    margin-left: 0;
+  }
+}

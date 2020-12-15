@@ -1,0 +1,25 @@
+#mainblock {
+  background: url('../images/summerBack.jpg'), rgba(255, 255, 255, 0.6);
+  background-blend-mode: color;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100%;
+}
+.text {
+  color: white;
+  text-shadow: 2px 1px 1px #E439A1;
+}
+.text1 {
+  color: #83004F;
+}
+.music1 {
+  color: #C9007A;
+}
+#img1 {
+  margin-left: 3%;
+  width: 35%;
+  float: left;
+}
+.block4 {
+  padding-bottom: 42.5%;
+}

@@ -1,0 +1,28 @@
+#mainblock {
+  background: url('../images/springBack.png'), rgba(255, 255, 255, 0.5);
+  background-blend-mode: color;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100%;
+}
+.text {
+  color: white;
+  text-shadow: 2px 1px 1px #228D00;
+}
+.text1 {
+  color: #044700;
+}
+.music1 {
+  color: #056E00;
+}
+#img1 {
+  margin-left: 7%;
+  margin-top: 3%;
+  padding-top: 0%;
+  width: 25%;
+  padding-bottom: 0%;
+  float: left;
+}
+.block4 {
+  padding-bottom: 41.5%;
+}

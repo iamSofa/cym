@@ -1,0 +1,102 @@
+body {
+  margin: 0%;
+}
+nav {
+  text-align: center;
+  padding: 0 0 0;
+  position: fixed;
+  z-index: 9;
+  background-color: white;
+  width: 100%;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav a {
+  text-decoration: none;
+  display: block;
+  color: #222;
+}
+.topmenu > li {
+  display: inline-block;
+  position: relative;
+}
+.topmenu > li > a {
+  position: relative;
+  padding: 1.5vw 7vw;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 1.5vw;
+  line-height: 1;
+  letter-spacing: 3px;
+}
+.topmenu > li > a:before {
+  content: "";
+  position: absolute;
+  z-index: 5;
+  left: 50%;
+  top: 70%;
+  width: 1vw;
+  height: 1vw;
+  background: white;
+  border-radius: 50%;
+  transform: translate(-50%, 20px);
+  opacity: 0;
+  transition: .3s;
+}
+.topmenu li:hover a:before {
+  transform: translate(-50%, 0);
+  opacity: 1;
+}
+.submenu {
+  position: absolute;
+  z-index: 4;
+  left: 50%;
+  top: 70%;
+  width: 9vw;
+  padding: 1vw 0 1vw;
+  margin-top: 0.5vw;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 0 2vw rgba(0,0,0,.2);
+  box-sizing: border-box;
+  visibility: hidden;
+  opacity: 0;
+  transform: translate(-50%, 20px);
+  transition: .3s;
+}
+.topmenu > li:hover .submenu {
+  visibility: visible;
+  opacity: 1;
+  transform: translate(-50%, 0);
+}
+.submenu a {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  padding: 0.5vw 1vw;
+  transition: .3s linear;
+}
+.submenu a:hover {
+  background: #e8e8e8;
+}
+footer {
+  color:rgb(192, 107, 178);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  font-style: italic;
+  font-size: 1vw;
+}
+@media (max-width: 800px) {
+  .topmenu > li > a {
+    font-size: 3vw;
+    letter-spacing: 2px;
+  }
+  .submenu {
+    width: 15vw;
+  }
+  .submenu a {
+    font-size: 3vw;
+  }
+}

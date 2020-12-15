@@ -1,0 +1,26 @@
+#mainblock {
+  background: url('../images/winterBack.jpg'), rgba(155, 232, 255, 0.6);
+  background-blend-mode: color;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100%;
+  display: flex;
+}
+.text {
+  color: white;
+  text-shadow: 2px 1px 1px #4F4FD9;
+}
+.text1 {
+  color: #090974;
+}
+.music1 {
+  color: #1B1BB3;
+}
+#img1 {
+  margin-left: 3%;
+  width: 35%;
+  float: left;
+}
+.block4 {
+  padding-bottom: 41%;
+}

@@ -1,0 +1,25 @@
+#mainblock {
+  background: url('../images/autumnBack.jpg'), rgba(255, 220, 155, 0.6);
+  background-blend-mode: color;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100%;
+}
+ .text {
+  color: rgb(254, 255, 218);
+  text-shadow: 2px 1px 1px 	#83004F;
+}
+.text1 {
+  color: 	#83004F;
+}
+.music1 {
+  color: #C9007A;
+}
+#img1 {
+  margin-left: 3%;
+  width: 35%;
+  float: left;
+}
+.block4 {
+  padding-bottom: 42%;
+}
